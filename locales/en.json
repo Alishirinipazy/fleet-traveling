@@ -1,0 +1,15 @@
+{
+    "brand": "fleet",
+    "landing": {
+        "header": {
+            "nav": {
+                "option":{
+                    "otn1": "Hotel",
+                    "otn2": "travels",
+                    "otn3": "buy ticket"
+                },
+                "support": "support"
+            }
+        }
+    }
+}

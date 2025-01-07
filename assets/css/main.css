@@ -1,0 +1,16 @@
+
+@import "bootstrap/dist/css/bootstrap.rtl.min.css";
+@font-face {
+    font-family: "vazirmatn";
+    src: url(../fonts/Vazirmatn-FD-Light.woff2);
+
+}
+:root {
+    --main-color-text:#777E90;
+}
+* {
+    font-family: "Vazirmatn";
+}
+.text-color {
+    color: var(--main-color-text);
+}
