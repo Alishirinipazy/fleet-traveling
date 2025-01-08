@@ -1,5 +1,6 @@
 {
     "brand": "fleet",
+    "description": "Book a hotel and fly with Easy by fleet....",
     "landing": {
         "header": {
             "nav": {
@@ -11,6 +12,12 @@
                 "support": "support",
                 "account":"login || register"
             }
+        },
+        "footer": {
+            "about":"about",
+            "contact":"contact",
+            "community": "Join our community \uD83D\uDD25",
+            "email": "Enter your email"
         }
     }
 }
