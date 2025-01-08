@@ -8,7 +8,8 @@
                     "otn2": "travels",
                     "otn3": "buy ticket"
                 },
-                "support": "support"
+                "support": "support",
+                "account":"login || register"
             }
         }
     }
