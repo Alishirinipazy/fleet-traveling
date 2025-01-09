@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules:[],
+  app: {
 
+    head: {
+      link: [{ rel: 'icon', type: '/brand.png', href: '/k' }],
+    },
+  }
 })

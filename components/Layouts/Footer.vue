@@ -40,9 +40,12 @@
         </ul>
       </div>
       <div class="col-lg-4">
+        <h6> {{ $t('landing.footer.community') }}</h6>
         <div class="input-group mb-3 position-relative">
-          <input type="text" class="form-control rounded-4" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-primary footer-btn-send rounded-circle" type="button" id="button-addon2"></button>
+          <input type="text" class="form-control rounded-4" :placeholder="$t('landing.footer.email')" aria-label="Recipient's username" aria-describedby="button-addon2">
+
+            <button class="bi-arrow-left-circle-fill btn footer-btn-send" :class="$i18n.locale==='en'?'bi-arrow-right-circle-fill ':'bi-arrow-left-circle-fill'"></button>
+
         </div>
 
       </div>
@@ -52,9 +55,14 @@
 <style scoped>
 .footer-btn-send {
   position: absolute;
-  left: 0;
-
+  top: -1px;
+  left: 12px;
+  width: 30px;
+  height: 30px;
+  color: var(--second-color-text);
+  font-size: 20px;
 }
+
 </style>
 <script setup lang="ts">
 </script>

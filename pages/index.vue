@@ -1,12 +1,6 @@
 <template>
-  <div class="container">
-    <div>
-
-
-
-    </div>
-    <h1 class="w-96 text-red-900">{{ $t('brand') }}</h1>
-
+  <div class="container py-3">
+    <Home />
   </div>
 </template>
 <script setup lang="ts">

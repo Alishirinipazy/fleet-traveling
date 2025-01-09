@@ -17,7 +17,9 @@ if (i18n.locale.value === "fa") {
   import('bootstrap/dist/css/bootstrap.css')
 }
 
-console.log(i18n)
+useHead({
+
+})
 </script>
 <style>
 

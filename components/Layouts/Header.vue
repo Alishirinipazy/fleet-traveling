@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 px-lg-5 mx-lg-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 px-lg-3 ">
       <div class="container">
         <a class="navbar-brand bo  px-3" href="#">
           <img src="@/public/images/global/brand.png" height="36" width="36" :alt="$t('brand')">
