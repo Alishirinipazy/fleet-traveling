@@ -19,3 +19,6 @@ option {
 .text-color {
     color: var(--main-color-text);
 }
+.text-bold {
+    font-weight: bold;
+}

@@ -1,23 +1,28 @@
 {
-    "brand": "fleet",
-    "description": "Book a hotel and fly with Easy by fleet....",
-    "landing": {
-        "header": {
-            "nav": {
-                "option":{
-                    "otn1": "Hotel",
-                    "otn2": "travels",
-                    "otn3": "buy ticket"
-                },
-                "support": "support",
-                "account":"login || register"
-            }
+  "brand": "fleet",
+  "description": "Book a hotel and fly with Easy by fleet....",
+  "landing": {
+    "header": {
+      "nav": {
+        "option": {
+          "otn1": "Hotel",
+          "otn2": "travels",
+          "otn3": "buy ticket"
         },
-        "footer": {
-            "about":"about",
-            "contact":"contact",
-            "community": "Join our community \uD83D\uDD25",
-            "email": "Enter your email"
-        }
+        "support": "support",
+        "account": "login || register"
+      }
+    },
+    "sec1": {
+      "title": "Air, sleep, dream By",
+      "description": "Find and book a great experience.",
+      "link": "Start your search"
+    },
+    "footer": {
+      "about": "about",
+      "contact": "contact",
+      "community": "Join our community \uD83D\uDD25",
+      "email": "Enter your email"
     }
+  }
 }
