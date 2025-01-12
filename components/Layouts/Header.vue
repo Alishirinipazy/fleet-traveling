@@ -33,8 +33,8 @@
                 {{ $t('landing.header.nav.support') }}
               </nuxt-link>
               <select  id="locale-select" class="select-header mx-1" v-model="$i18n.locale">
-                <option value="en">English</option>
-                <option value="fa"> فارسی</option>
+                <option value="en" >English</option>
+                <option value="fa" > فارسی</option>
               </select>
               <div class="dropdown mx-1 position-relative " >
                 <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false" >

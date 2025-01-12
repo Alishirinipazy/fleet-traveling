@@ -16,7 +16,21 @@
     "sec1": {
       "title": "Air, sleep, dream By",
       "description": "Find and book a great experience.",
-      "link": "Start your search"
+      "link": "Start your search",
+      "search": "search",
+      "ticket": {
+        "trine": {
+          "name": "trine",
+          "origin": "city origin",
+          "dest": "city dest",
+          "gone": "date gone",
+          "return": "data return"
+        },
+          "tour": "tour",
+          "rent": "rent & sou",
+        "air": "Air",
+        "hotel": "Hotel"
+      }
     },
     "footer": {
       "about": "about",

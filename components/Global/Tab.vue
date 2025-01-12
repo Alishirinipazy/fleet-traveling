@@ -4,35 +4,65 @@ import TabList from 'primevue/tablist';
 import Tab from 'primevue/tab';
 import TabPanels from 'primevue/tabpanels';
 import TabPanel from 'primevue/tabpanel';
-import 'primevue/tab/style'
+import DatePicker from 'primevue/datepicker';
+import Select from 'primevue/select';
+
+
+const selectedCity = ref();
+const cities = ref([
+  { name: 'قم', code: 'NY' },
+  { name: 'Rome', code: 'RM' },
+  { name: 'London', code: 'LDN' },
+  { name: 'Istanbul', code: 'IST' },
+  { name: 'Paris', code: 'PRS' }
+]);
 </script>
 <template>
-  <div class="card rounded-4 border-0 ">
+  <div class="card rounded-4 border-0 p-3">
     <Tabs value="0">
-      <TabList>
-        <Tab value="0">Header I</Tab>
-        <Tab value="1">Header II</Tab>
-        <Tab value="2">Header III</Tab>
+      <TabList >
+        <Tab value="0">{{$t('landing.sec1.ticket.trine.name')}}</Tab>
+        <Tab value="1">{{$t('landing.sec1.ticket.air')}}</Tab>
+        <Tab value="2">{{$t('landing.sec1.ticket.hotel')}}</Tab>
+
       </TabList>
       <TabPanels>
         <TabPanel value="0">
-          <p class="m-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div class="row ">
+          <div class="col-lg-3 py-2">
+            <div class="card ">
+              <Select v-model="selectedCity" :options="cities" optionLabel="name" :placeholder="$t('landing.sec1.ticket.trine.origin')" class=""   />
+            </div>
+          </div>
+          <div class="col-lg-2 py-2">
+
+            <DatePicker v-model="icondisplay"  :placeholder="$t('landing.sec1.ticket.trine.gone')" showIcon fluid iconDisplay="input" />
+          </div>
+          <div class="col-lg-2 py-2">
+
+            <DatePicker v-model="icondisplay" :placeholder="$t('landing.sec1.ticket.trine.return')" showIcon fluid iconDisplay="input" />
+          </div>
+          <div class="col-lg-3 py-2">
+            <div class="card ">
+              <Select v-model="selectedCity" :options="cities" optionLabel="name" :placeholder="$t('landing.sec1.ticket.trine.dest')" class=""   />
+            </div>
+          </div>
+            <div class="col py-2">
+              <GlobalLinkBTN :text="$t('landing.sec1.search')" link="/product" icon="bi-search" />
+            </div>
+          </div>
         </TabPanel>
         <TabPanel value="1">
-          <p class="m-0">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.
+          <p class="text-center">
+            بزودی
           </p>
         </TabPanel>
         <TabPanel value="2">
-          <p class="m-0">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-            qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+          <p class="text-center">
+            بزودی
           </p>
         </TabPanel>
+
       </TabPanels>
     </Tabs>
   </div>

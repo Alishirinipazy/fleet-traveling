@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-wrap align-items-center   position-relative home-set-style ">
+  <div class="d-flex flex-wrap align-items-start   position-relative home-set-style ">
     <div class="home-sec1-caption p-5   ">
       <h3 class="text-bold  ">{{$t("landing.sec1.title")}}
         <br>
@@ -33,7 +33,7 @@
   font-size: 45px;
 }
 .home-sec1-reserve {
-  margin-top: -150px;
+  margin-top: -110px;
   box-shadow: 0px 19px 10px #fafafa;
 }
 @media (max-width: 700px) {
@@ -46,6 +46,9 @@
   }
   .home-sec1-reserve {
     margin: 0;
+  }
+  .home-sec1-caption h3 {
+    font-size: 20px;
   }
 }
 </style>
