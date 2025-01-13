@@ -32,6 +32,23 @@
         "hotel": "Hotel"
       }
     },
+    "sec2": {
+      "title": "Let’s go on an adventure",
+      "des": "Find and book a great experience.",
+      "items": {
+        "item1": {
+          "name": "Luxury resort at the sea",
+          "count": "150 places"
+        },
+        "item2": {
+          "name": "Camping amidst the wild",
+          "count": "268 places"
+        },"item3": {
+          "name": "Luxury resort at the sea",
+          "count": "54 places"
+        }
+      }
+    },
     "footer": {
       "about": "about",
       "contact": "contact",

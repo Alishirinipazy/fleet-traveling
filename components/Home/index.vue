@@ -2,8 +2,8 @@
   <div class="d-flex flex-wrap align-items-start   position-relative home-set-style ">
     <div class="home-sec1-caption p-5   ">
       <h3 class="text-bold  ">{{$t("landing.sec1.title")}}
-        <br>
-      <a class="navbar-brand   px-3" href="#">
+        <br class="d-none d-lg-block">
+      <a class="navbar-brand" href="#">
         <img src="@/public/images/global/brand.png" height="36" width="36" :alt="$t('brand')">
         {{ $t('brand') }}
       </a>
