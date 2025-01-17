@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-4 ">
+  <div class="container my-4 py-5">
       <h3 class="text-bold text-center">{{$t("landing.sec2.title")}}</h3>
       <p class="text-center">{{$t("landing.sec2.des")}}</p>
     <div class="row my-5">
@@ -23,7 +23,7 @@
       </div>
       <div class="col-lg-4 d-flex align-items-center justify-content-center">
         <div class="px-3">
-          <img  src="~/public/images/Home/sec2/img.png" width="120px" height="133px" class="img-fluid" alt="testImage">
+          <img  src="~/public/images/Home/sec2/img.png" width="120" height="133" class="img-fluid" alt="testImage">
         </div>
         <div class="">
           <p class="m-0">{{$t("landing.sec2.items.item3.name")}}</p>
@@ -33,5 +33,5 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 </script>

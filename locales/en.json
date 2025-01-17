@@ -1,6 +1,8 @@
 {
   "brand": "fleet",
   "description": "Book a hotel and fly with Easy by fleet....",
+  "link": "Start your search",
+  "search": "search",
   "landing": {
     "header": {
       "nav": {
@@ -26,8 +28,8 @@
           "gone": "date gone",
           "return": "data return"
         },
-          "tour": "tour",
-          "rent": "rent & sou",
+        "tour": "tour",
+        "rent": "rent & sou",
         "air": "Air",
         "hotel": "Hotel"
       }
@@ -43,9 +45,28 @@
         "item2": {
           "name": "Camping amidst the wild",
           "count": "268 places"
-        },"item3": {
+        },
+        "item3": {
           "name": "Luxury resort at the sea",
           "count": "54 places"
+        }
+      }
+    },
+    "about": {
+      "title": "Travel to make memories all around the world",
+      "dis": "Find trips that fit a flexible lifestyle",
+      "items": {
+        "item": {
+          "title": "Find trips that fit a flexible lifestyle",
+          "dis": "Stacks is a production-ready library of stackable content blocks built in React Native"
+        },
+        "item2": {
+          "title": "Travel with more confidence",
+          "dis": "Stacks is a production-ready library of stackable content blocks built in React Native"
+        },
+        "item3": {
+          "title": "See what’s really included",
+          "dis": "Stacks is a production-ready library of stackable content blocks built in React Native"
         }
       }
     },

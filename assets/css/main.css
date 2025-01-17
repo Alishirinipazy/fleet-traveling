@@ -12,6 +12,7 @@
 }
 * {
     font-family: "Vazirmatn";
+    -moz-font-language-override: "ENG";
 }
 option {
     font-family: "vazirmatn";
