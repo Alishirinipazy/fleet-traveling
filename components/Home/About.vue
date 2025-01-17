@@ -3,7 +3,7 @@
     <h3 class="text-lg-center text-bold">{{$t('landing.about.title')}}</h3>
     <p class="text-lg-center">{{$t('landing.about.dis')}}</p>
     <div class="row my-5  py-4 ">
-      <div class="col-lg-6 my-3 my-lg-0" >
+      <div class="col-lg-6 my-3 my-lg-1 " >
         <div class="">
           <div class="">
             <span class="rounded-5  bg-warning px-3 ">1</span>
