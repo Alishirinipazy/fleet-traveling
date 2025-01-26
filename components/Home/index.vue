@@ -9,12 +9,12 @@
       </a>
       </h3>
       <p class="text-bold">{{$t("landing.sec1.description")}}</p>
-      <GlobalLinkBTN :text="$t('landing.sec1.link')" link="/product" />
+      <globalLinkBTN :text="$t('landing.sec1.link')" link="/product" />
     </div>
     <img src="@/public/images/Home/img.png" class="img-fluid home-sec1-image  rounded-5" alt="">
   </div>
     <div class="home-sec1-reserve mx-5">
-      <GlobalTab />
+      <globalTab />
     </div>
 
 </template>

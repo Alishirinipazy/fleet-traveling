@@ -48,7 +48,7 @@ const cities = ref([
             </div>
           </div>
             <div class="col py-2">
-              <GlobalLinkBTN :text="$t('landing.sec1.search')" link="/product" icon="bi-search" />
+              <globalLinkBTN :text="$t('landing.sec1.search')" link="/product" icon="bi-search" />
             </div>
           </div>
         </TabPanel>
